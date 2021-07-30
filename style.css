@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px;
+}
+
+.btn-danger:hover{
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+canvas {
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change{
+    from {box-shadow:1px 1px 38px red;}
+    to {box-shadow:1px 1px 38px rgb(0, 17, 255);}
+}
